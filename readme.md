@@ -43,14 +43,13 @@ To set up the development environment, run the following commands:
 
 ```
 pip install -e .[dev]
-pre-commit install
 ```
 
 # Citation
-If you use ELQM: Energy-Law Query-Master for your research, please cite it using the following
+If you use my repository for your research, please cite it using the following
 
 ```bibtex
-@software{elqm_energy_law_query_master_2023,
+@software{testingStableDiffusion_Tatsch,
     author = {Nikita Tatsch},
     title = {Tests with Stable Diffusion},
     month = jan,
