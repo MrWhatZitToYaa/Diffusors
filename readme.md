@@ -5,7 +5,7 @@ In this repository I will experiment with different pipelines and workflows for 
 
 
 ## Hardware
-- >16 GB RAM
+- \> 16 GB RAM
 - GPU with > 8 GB VRAM
 
 ## Software
