@@ -1,0 +1,37 @@
+[project]
+name = "diff"
+description = "Testing Stable Diffusion"
+authors = [
+    {name = "Nikita Tatsch"}
+    ]
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+version = "0.1.0"
+urls = { Github = "https://github.com/MrWhatZitToYaa/Diffusors.git"}
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+
+[project.optional-dependencies]
+dev = [
+    "torch"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel",
+    "platformdirs==3.10.0",
+]
+build-backend = "setuptools.build_meta"
